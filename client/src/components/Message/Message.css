@@ -1,0 +1,60 @@
+.messageBox {
+    border-radius: 20px;
+    padding: 0px 15px;
+    font-size: 1.5rem;
+    max-width: 80%;
+  }
+  
+  .messageText {
+    width: 100%;
+  }
+  
+  .messageText img {
+    vertical-align: middle;
+  }
+  
+  .messageContainer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 10px;
+    margin-top: 4px;
+  }
+  
+  .sentText {
+    display: flex;
+    align-items: center;
+    color: #959495;
+    font-size: 1.3rem;
+  }
+  
+  .pl-10 {
+    padding-left: 10px;
+  }
+  
+  .pr-10 {
+    padding-right: 10px;
+  }
+  
+  .justifyStart {
+    justify-content: flex-start;
+  }
+  
+  .justifyEnd {
+    justify-content: flex-end;
+  }
+  
+  .colorWhite {
+    color: white;
+  }
+  
+  .colorDark {
+    color: #353535;
+  }
+  
+  .backgroundDark {
+    background: var(--main-color);
+  }
+  
+  .backgroundLight {
+    background: var(--sec-color);
+  }

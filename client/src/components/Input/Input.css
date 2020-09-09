@@ -1,0 +1,49 @@
+.form {
+  width: 100%;
+  min-height: 70px ;
+  padding: 6px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 2px solid var(--sec-color);
+}
+
+.textarea {
+  width: 90%;
+  height: 100%;
+  resize: none;
+  border: none;
+  color: #744da1;
+  font-size: 1.5rem;
+  font-family: inherit;
+}
+
+.textarea::placeholder{
+  color: rgb(175, 172, 172);
+  font-family: inherit;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+.sendButton {
+  width: 60px;
+  height: 60px;
+  padding: 0 2px 0 0;
+  color: #fff;
+  font-size: 2.7rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: none;
+  border-radius: 50%;
+  transition: 0.5s;
+  background-color: var(--main-color);
+  cursor: pointer;
+}
+
+.sendButton:hover {
+  background-color: var(--ter-color);
+}

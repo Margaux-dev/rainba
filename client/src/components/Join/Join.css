@@ -1,0 +1,135 @@
+html,
+body {
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+#root {
+  height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.joinInnerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  align-items: center;
+  background-color: #171418;
+}
+
+.joinInput {
+  width: 380px;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 5px;
+  color: #4a9ab9;
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+.joinInput::placeholder{
+  color: #85b8c5;
+  font-family: inherit;
+}
+
+.rainbaLogo {
+  margin-bottom: -15px;
+}
+
+.heading {
+  width: 380px;
+  color: white;
+  font-size: 4.2rem;
+  padding-bottom: 10px;
+  border-bottom: 2px solid rgb(209, 181, 245);
+}
+
+.button-join {
+  width: 380px;
+  padding: 20px;
+  display: inline-block;
+  color: #fff;
+  font-size: 1.9rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: 0.5s;
+  background-image: linear-gradient(to left, #9795f0 0%, #fbc8d4 100%);
+  background-size: 200% auto;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-join:hover{
+  background-position: right center;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.colorPicker{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.colorChoice{
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+
+.colors{
+  display: flex;
+}
+
+.color{
+  width: 18px;
+  height: 18px;
+  margin: 0 3px;
+  border: none;
+  border-radius: 50%;
+}
+
+.color:hover, .color-active{
+  border: 2px solid #fff
+}
+
+.color-1{
+  background-color: rgb(197, 16, 16);
+}
+.color-2{
+  background-color: orange; 
+}
+.color-3{
+  background-color: rgb(248, 232, 87); 
+}
+.color-4{
+  background-color: rgb(45, 167, 45);
+}
+.color-5{
+  background-color: rgb(0, 162, 255); 
+}
+.color-6{
+  background-color: #7269c3;
+}
+
+@media screen and (max-width: 480px) {
+  .heading, .joinInput, .button-join{
+    width: 280px;
+  }
+}
+
+button:focus {
+  outline: 0;
+}
