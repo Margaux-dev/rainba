@@ -98,7 +98,7 @@ html{
   height: 18px;
   margin: 0 3px;
   border: none;
-  border-radius: 50%;
+  border-radius: 18px;
 }
 
 .color:hover, .color-active{
