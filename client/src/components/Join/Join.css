@@ -11,6 +11,7 @@ html{
 
 #root {
   height: 100vh;
+  overflow-y: hidden;
 }
 
 * {
@@ -97,8 +98,8 @@ html{
   width: 18px;
   height: 18px;
   margin: 0 3px;
-  border: none;
-  border-radius: 18px;
+  border: 2px solid transparent;
+  border-radius: 5px;
 }
 
 .color:hover, .color-active{
