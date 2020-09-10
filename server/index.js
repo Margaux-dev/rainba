@@ -8,9 +8,9 @@ const router = require("./router");
 const app = express();
 const server = http.createServer(app);
 const io = socketio(server);
-
-app.use(router);
 app.use(cors());
+app.use(router);
+
 
 io.on("connect", (socket) => {
     socket.on("join", ({ name, room }, callback) => {
@@ -40,4 +40,4 @@ io.on("connect", (socket) => {
 
 
 
-server.listen(PORT, () => console.log(`Le serveur a démarré sur le port ${PORT}`));
+server.listen(process.env.PORT || 5000, () => console.log(`Server has started.`));
