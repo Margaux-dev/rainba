@@ -89,10 +89,6 @@ html{
   font-weight: 300;
 }
 
-.colors{
-  display: flex;
-}
-
 .color{
   width: 18px;
   height: 18px;
